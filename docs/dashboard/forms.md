@@ -80,3 +80,8 @@ define ( 'WPCF7_LOAD_JS', false );
 
 Push your form content from Wordpress to Quant after making this change.
 
+## Email configuration
+
+To ensure that emails sent by the Quant forms pass the SPF policy checks, ensure this include is added to your domain's SPF record:
+`include:[fixme]`
+
